@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/btnAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/age"
+        android:padding="16dp"
+        android:textSize="25sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:onClick="agec"
+        android:text="Age calculator"
+         />
+
+    <Button
+        android:id="@+id/btnBmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/bmi"
+        android:padding="16dp"
+        android:textSize="25sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="BMI calculator"
+        android:onClick="bmical" />
+
+    <Button
+        android:id="@+id/shapCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/shapes"
+        android:padding="16dp"
+        android:textSize="25sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Shapes(Area/Perimeter)"
+        android:onClick="sheCal" />
+
+    <Button
+        android:id="@+id/soliCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/solid"
+        android:padding="16dp"
+        android:textSize="25sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Solid(Area/Volume)"
+        android:onClick="solidC" />
+    </LinearLayout>
+</ScrollView>
